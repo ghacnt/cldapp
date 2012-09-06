@@ -1,0 +1,32 @@
+<html>
+<head>
+  <title>Hello Cloud</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('#about').click(function(){
+        $('#result').load('pages/about.html');
+         //alert("Thanks for visiting!");
+      }); 
+ 
+      $('#projects').click(function(){
+        $('#result').load('pages/projects.html');
+        //alert("Thanks for visiting!");
+      });
+    
+      $('li:first-child').addClass('emphasis');
+    });
+  </script>
+</head>
+<body>
+  <h1>Hello Cloud</h1>
+  <p>This is a JQuery dynamic load demo</p>
+  <ul>
+    <li><a id="about" href="#">About</a></li>
+    <li><a id="projects" href="#">Projects</a></li>
+    <li><a id="links" href="mailto:me@me.com">Contact Me</a></li>
+  </ul>
+  <div id="result" style="clear:both;">
+  </div>
+</body>

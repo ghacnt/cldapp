@@ -1,0 +1,17 @@
+/* Tag Section */
+body {
+  color: #000000; 
+  font-family: lucida-sans, sans-serif; 
+  font-size: 20pt; 
+  font-style: normal; 
+  font-variant: normal; 
+}
+
+a {
+  color: #A1A1A1;
+}
+/* Class Section */
+.emphasis {
+  font-weight: bold;
+}
+/* ID Section */

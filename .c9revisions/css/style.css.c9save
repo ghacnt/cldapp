@@ -1,0 +1,2 @@
+{"ts":1346910158131,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1346910168518,"patch":[[{"diffs":[[1,"/* Tag Section */\r\nbody {\r\n  color: #000000; \r\n  font-family: lucida-sans, sans-serif; \r\n  font-size: 20pt; \r\n  font-style: normal; \r\n  font-variant: normal; \r\n}\r\n\r\na {\r\n  color: #A1A1A1;\r\n}\r\n/* Class Section */\r\n.emphasis {\r\n  font-weight: bold;\r\n}\r\n/* ID Section */"]],"start1":0,"start2":0,"length1":0,"length2":267}]],"length":267,"saved":false}
